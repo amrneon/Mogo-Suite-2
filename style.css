@@ -1,0 +1,161 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+
+}
+
+body {
+	
+}
+
+.header{
+	height:62.5rem;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 100%;
+	min-width: 75rem;
+	background-image: linear-gradient( rgba(243, 129, 129, 0.9) 0%, rgba(252, 227, 138, 0.9) 100%), url(header-backgrounf.png);
+}
+
+
+.header-logo{
+	display: flex;
+	height: 3.75rem;
+	margin-left: 22.5rem;
+	margin-right: 22.5rem;
+}
+
+.logo-png{
+	margin-top: 1.75rem;
+}
+
+.logo-png img{
+	box-sizing: cover;
+}
+
+.logo-navigation{
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+}
+
+.logo-navigation a{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 0.9rem;
+	/*font-family: 'Montserrat';*/
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 400;
+}
+
+.logo-navigation a:hover{
+	border-bottom: 0.185rem solid;
+	padding-bottom: 0.5rem;
+	color: #fce38a;
+}
+
+.navigation-item{
+	align-items: center;
+	padding: 0 2rem 0 2rem;
+	margin-top: 2.5rem;
+}
+
+.navigation-item:last-child{
+	padding-right: 0;
+}
+
+.logo-name{
+	margin-top: 14.375rem;
+	margin-left: 35rem;
+	height: 39.75rem;
+	width: 51rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.mogo-item1{
+	width: 32.75rem;
+	height: 5.5375rem;
+	color: #ffffff;
+	font-family: "Kaushan Script";
+	font-size: 4.5rem;
+	font-weight: 25rem;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+	text-align: center;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+}
+
+.mogo-item2{
+	width: 50.125rem;
+	height: 15.5rem;
+	color: #ffffff;
+	font-family: "Montserrat Black 900";
+	font-size: 7.375rem;
+	font-weight: 700;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 8.75rem;
+	text-align: center;
+	text-transform: uppercase;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: normal;
+}
+
+.mogo-item3{
+	margin-top: 4.4375rem;
+	width: 3.75rem;
+	height: 0.1875rem;
+	background-color: #ffffff;
+}
+
+.mogo-item4{
+	margin-top: 3.125rem;
+	width: 10rem;
+	height: 2.5rem;
+	border: 0.1875rem solid #ffffff;
+	color: white;
+	text-align: center;
+	font-family: 'Montserrat Bold';
+	font-size: 0.875rem;
+	text-transform: uppercase;
+}
+
+.bottom-line{
+	margin-top: 11.5625rem;
+	width: 75rem;
+	height: 4.375rem;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: flex-end;
+}
+
+.bottom-item{
+	margin: 0 0.1875rem 0 0.1875rem;
+	width: 175.5rem;
+	height: 4.375rem;
+	border-bottom: 0.1875rem solid white;
+}
+
+.bottom-item a{
+	text-transform: uppercase;
+	font-family: 'Monserrat Bold';
+	text-decoration: none;
+	font-weight: 900;
+	color: white;
+}
+ 
+.bottom-item a:hover{
+	border-top: 0.1875rem solid white;
+	padding-top: 0.5rem;
+	color: #fce38a;
+}

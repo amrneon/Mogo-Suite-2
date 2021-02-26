@@ -1,0 +1,232 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-size: 16px;
+	font-family: 'Montserrat', arial, helvetica, sans-serif;
+}
+
+.section {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.section-container {
+	width: 100%;
+	max-width: 75rem;
+}
+
+.header {
+	height: 62.5rem;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: linear-gradient(rgba(243, 129, 129, 0.9) 0%, rgba(252, 227, 138, 0.9) 100%), url(header-backgrounf.png);
+}
+
+.header-container {
+	display: flex;
+	flex-direction: column;
+}
+
+
+.header-logo {
+	display: flex;
+	height: 3.75rem;
+	flex: none;
+}
+
+.logo-png {
+	margin-top: 1.75rem;
+}
+
+.logo-navigation {
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+}
+
+.logo-navigation a {
+	text-decoration: none;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 0.9rem;
+	font-weight: 400;
+}
+
+.navigation-item:hover a {
+	border-bottom: 0.185rem solid #fce38a;
+	padding-bottom: 0.5rem;
+	color: #fce38a;
+}
+
+.navigation-item {
+	align-items: center;
+	padding: 0 2rem 0 2rem;
+	margin-top: 2.5rem;
+}
+
+.navigation-item:first-child {
+	padding-left: 0;
+}
+
+.navigation-item:last-child {
+	padding-right: 0;
+}
+
+.logo-name {
+	flex: auto;
+
+ 	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+	justify-content: center;
+}
+
+.mogo-item1 {
+	width: 32.75rem;
+	height: 5.5375rem;
+	color: #ffffff;
+	font: 400 4.5rem "Kaushan Script", helvetica, sans-serif;
+	line-height: 6rem;
+}
+
+.mogo-item2 {
+	width: 50.125rem;
+	height: 15.5rem;
+	color: #ffffff;
+	font: 700 7.375rem "Monserrat", helvetica, sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.mogo-item3 {
+	margin-top: 4.4375rem;
+	width: 3.75rem;
+	height: 3px;
+	background-color: #fff;
+}
+
+.mogo-item4 {
+	margin-top: 3.125rem;
+	width: 10rem;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	border: 3px solid #fff;
+	color: white;
+	text-align: center;
+	font-size: 0.875rem;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.bottom-line {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	flex: none;
+	margin-bottom: 2rem;
+}
+
+.bottom-item {
+	margin: 0 1rem;
+	height: 4.375rem;
+	line-height: 4.375rem;
+	cursor: pointer;
+	flex: 2;
+	position: relative;
+}
+
+.bottom-item:before {
+	content: "";
+	display: block;
+	height: 3px;
+	width: 100%;
+	/* position: absolute;
+	top: -2px; */
+	background: rgba(255, 255, 255, 0.3);
+}
+
+.bottom-item:hover:before {
+	background: linear-gradient(to right, #f59996 0%, #f59996 25%, white 25%, white);
+}
+
+.bottom-item a {
+	text-transform: uppercase;
+	font-family: 'Monserrat Bold';
+	text-decoration: none;
+	font-weight: 900;
+	color: white;
+}
+
+.about{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.about-list{
+	height: 46.875rem;
+	background-color: white;
+}
+
+.about-container{
+	width: 100%;
+	max-width: 75rem;
+}
+
+.about-num{
+	flex: auto;
+
+ 	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+	justify-content: center;
+}
+
+.body-container{
+	display: flex;
+	flex-direction: column;
+}
+
+.about1{
+	margin-top: 5.875rem;
+	font: 400 1.5rem "Kaushan Script", helvetica, sans-serif;
+}
+
+.about2{
+	margin-top: 23px;
+	text-transform: uppercase;
+	font: 700 1.875rem 'Monserrat Bold';
+}
+
+.about3{
+	margin-top: 40px;
+	width: 3.75rem;
+	height: 3px;
+	background-color: black;
+}
+
+.about4{
+	margin-top: 47px;
+	width: 60rem;
+	height: 2.5rem;
+	
+}
+
+.about-img{
+	margin-top: 6.3125rem;
+	margin-bottom: 6.3125rem;
+	display: flex;
+}
+
+.picture-about2{
+	padding: 0 30px 0 30px;
+}
+
+.about-img a:hover{
+	background: linear-gradient(to right, #f59996 0%, #f59996 25%, white 25%, white);
+	text-decoration: none;
+}
